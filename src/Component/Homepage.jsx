@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import '../App.css';
 
 const Homepage = () => {
     return (
@@ -11,7 +12,7 @@ const Homepage = () => {
             <div id="carouselExample" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item ">
-                        <img src="image/img1.jpg" style={{ height: "85vh" }} className="d-block w-100" alt="..." />
+                        <img src="./src/public/image/img1.jpg" style={{ height: "85vh" }} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item active">
                         <img src="image/img3.jpg" style={{ height: "85vh" }} className="d-block w-100" alt="..." />

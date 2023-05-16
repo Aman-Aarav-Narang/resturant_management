@@ -87,8 +87,15 @@
 
 }
 
-.login-bg {
+.outer-nav .link-section li{
+text-decoration: none;
 }
+
+ul li{
+  text-decoration: none;
+  /* background-color: #61dafb; */
+}
+
 
 .form-input {
   border-bottom: 1px solid grey;

@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <>
 
-            <div className="">
+           
                 <div className="outer-nav">
                     <div className="logo-section">
                         <img src="logo512.png" alt="" />
@@ -31,7 +31,7 @@ const Header = () => {
                     </div>
 
                     <div className="social-media-section">
-                       
+
                         <ul className="social-media-desktop">
                             <li><a href="https://www.facebook.com/" target='_blank'><FaFacebook className='facebook' /></a></li>
                             <li><a href="https://www.instagram.com/" target='_blank'><FaInstagram /></a></li>
@@ -43,7 +43,7 @@ const Header = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+       
         </>
     )
 }

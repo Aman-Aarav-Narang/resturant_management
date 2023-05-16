@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Header from './Header'
 import { toast } from 'react-toastify';
 import { useNavigate, useParams } from 'react-router-dom';
-
+import '../App.css';
 const Loginpanel = () => {
 
 
